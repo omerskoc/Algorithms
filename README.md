@@ -19,3 +19,6 @@
    - Version 1: Using adjacency matrix to represent the graph and an unsorted array for priority queue Q.
    - Version 2: Using adjacency lists to represent the graph and a heap for priority queue Q.
 2. **Question 2:** Implementation of Johnsen’s algorithm using an unsorted array for priority queue Q. This algorithm involves Dijkstra’s and Bellman-Ford algorithms, so implementations and testing for those two algorithms are required beforehand.
+
+## Project 1:
+You are given an input array 𝐴[1, … , 𝑁]. A grouping of the array 𝐴 is described by an array 𝐺[1, … , 𝑀], where the array 𝐴 is partitioned into 𝑀 groups. Define array 𝐵[1, … , 𝑀] such that 𝐵[𝑗] is the summation of the elements in the 𝑗-th group of array 𝐴. Use a dynamic programming algorithm to find a grouping of array 𝐴 with 𝑀 groups such that we maximize the minimum element of array 𝐵.
