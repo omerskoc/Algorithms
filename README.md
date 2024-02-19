@@ -22,3 +22,19 @@
 
 ## Project 1:
 You are given an input array 𝐴[1, … , 𝑁]. A grouping of the array 𝐴 is described by an array 𝐺[1, … , 𝑀], where the array 𝐴 is partitioned into 𝑀 groups. Define array 𝐵[1, … , 𝑀] such that 𝐵[𝑗] is the summation of the elements in the 𝑗-th group of array 𝐴. Use a dynamic programming algorithm to find a grouping of array 𝐴 with 𝑀 groups such that we maximize the minimum element of array 𝐵.
+
+## Project 2:
+Implement and test the proposed algorithms in the "Task Scheduling" paper. Set up T_max in task migration around 1.5X of T_total of initial scheduling.
+1. Prepare your report using PowerPoint and submit it as a PDF. Include pictures, screenshots, and text in your report.
+2. Test your codes with 5 input examples as described below:
+   - Example 1: Exact same task graph and execution time as Figure 1 of the paper.
+   - Example 2: Same number of tasks as Figure 1 but change task connections.
+   - Example 3: Increase task number to 20 and redesign the task graph.
+   - Example 4: Redesign the task graph using multiple entry tasks based on Example 3.
+   - Example 5: Redesign the task graph using multiple entry and multiple exit tasks based on Example 3.
+3. For each input example, include in your report:
+   - Figure of the input example (task graph and execution time table).
+   - Program output screenshot of initial scheduling, visualized initial scheduling result, total energy consumption of initial scheduling from your program, and manual calculation of total energy consumption.
+   - Program output screenshot of final scheduling, visualized final scheduling result, total energy consumption of final scheduling from your program, and manual calculation of total energy consumption.
+   - Summary of T_total and E_total of initial and final scheduling.
+4. Analyze any differences in the initial scheduling result compared to the paper.
